@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+} 
+
 .my-styles-margintop {
 	margin-top: 90px;
 }
@@ -16,12 +20,7 @@
 }
 
 
-body {
-    margin: 0;
-
-}
-
-/*header .pic {
+header .pic {
     text-align: center;
     position: relative;
     width: 100%;
@@ -35,8 +34,8 @@ body {
     left: 0px;
     height: 100%;
 }
-*/
 
+/*
 header .blur {
 		width: 100%;
 }
@@ -52,7 +51,7 @@ width: 100%;
 .blur img:hover {
   -webkit-filter: blur(1px);
 }
-
+*/
 header .my-styles-text h1 {
 	position: absolute;
 	left: 250px;
