@@ -1,0 +1,122 @@
+.my-styles-margintop {
+	margin-top: 90px;
+}
+
+#partners .col-lg-4 {
+	float: left;
+	padding-top: 40px;
+}
+
+#partners .container {
+	height: 700px;
+}
+
+.clear {
+	clear: both;
+}
+
+
+body {
+    margin: 0;
+
+}
+
+/*header .pic {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.blur {
+    height: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+}
+*/
+
+header .blur {
+		width: 100%;
+}
+
+.blur img {
+width: 100%;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.blur img:hover {
+  -webkit-filter: blur(1px);
+}
+
+header .my-styles-text h1 {
+	position: absolute;
+	left: 250px;
+	top: -400px;
+}
+
+header .my-styles-text h3 {
+	position: absolute;
+	left: 350px;
+	top: -300px;
+}
+
+header .my-styles-text-2 p {
+	position: absolute;
+	left: 150px;
+	top: -223px;
+}
+
+header .my-styles-text-2 a {
+	position: absolute;
+	left: 295px;
+	top: -150px;
+}
+
+header .my-styles-text hr {
+	position: absolute;
+	top: -205px !important;
+	left:  445px !important;
+	max-width: 50px !important;
+    border-width: 3px !important;
+    border-color: #f05f40 !important; 
+}
+
+
+
+.dropdown .dropdown-menu {
+	opacity: 0; /* По умолчанию скрываем подменю */
+    visibility: hidden;
+    transition-property:  opacity, visibility;   /* Задаем какие свойства анимировать */
+    transition-duration: .3s, .3s;               /* Задаем продолжительность анимации для каждого свойства */
+    transition-delay: .15s, .15s;                /*время ожидания перед запуском эффекта перехода.*/
+}
+
+.dropdown:hover  .dropdown-menu { 
+	display: block;
+	margin-left: 60px;
+	opacity: 1; /* Показываем подменю при ховере */
+    visibility: visible;
+}
+
+.dropdown-menu a {
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown ul li {
+	padding-top: 10px;
+    padding: 10px;
+}
+
+ul.dropdown-menu  {
+	padding-top: 0;
+	padding-bottom: 5px;
+	margin-right: 10px;
+	position: absolute;
+	left: -66px;
+}
